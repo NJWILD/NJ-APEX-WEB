@@ -1,6 +1,6 @@
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import apexStory from "../assets/apexStory.jpg";
+import apexStory from "../assets/apexstory.jpg";
 
 const Story = () => {
   return (
