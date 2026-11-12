@@ -113,7 +113,7 @@ const Checkout = () => {
     const handler = window.PaystackPop.setup({
       key: "pk_test_f5ed3e79b7c217ef827ad52a481bec40e2485ddb", // 🔑 replace
       email: shipping.email,
-      amount: totalPrice * 100, // kobo
+      amount: totalPrice * 100, // kob
       currency: "NGN",
       ref: `psk-${Date.now()}`,
       callback: function (response) {
